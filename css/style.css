@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway|Varela+Round|Coda);
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+
+body {
+  background: #dcf8ec;
+  padding: 50px;
+}
+
+h1 {
+  font-family: "Quicksand", sans-serif;
+}
+
+#card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#profile-card {
+  background-color: #fff;
+  display: inline-block;
+  width: 1000px;
+  padding: 20px;
+}
+
+.profile-head {
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.avatar {
+  border-radius: 50%;
+  margin: 0 30px;
+}
+
+.profile-name p {
+  color: #205940;
+  font-size: 18px;
+}
+
+.profile-desc p {
+  font-family: "Lato", sans-serif;
+  color: #555;
+}
+
+.nextbyte-info {
+  font-family: "Coda", sans-serif;
+  margin-bottom: 0;
+}
+
+table {
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+}
+
+td,
+th {
+  padding: 5px 30px;
+  border: 1px dotted grey;
+}
+
+th {
+  color: #a8efd0;
+  background-color: #205940;
+}
+
+td {
+  color: #205940;
+  background-color: #a8efd0;
+}
+
+.profile-program {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Lato", sans-serif;
+  color: #555;
+}
+
+.profile-program li {
+  padding: 2.5px 0;
+}
+
+footer p {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  margin: 20px 0;
+  color: #205940;
+  font-weight: 600;
+}
